@@ -18,13 +18,13 @@ def guessing_controller(guess, answer):
         
 points = 0
 print('Guess the animal')
-answer1 = input('What bear lives in the north pole?')
+answer1 = input('What bear lives in the north pole? ')
 guessing_controller(answer1, 'ice bear')
 
-answer2 = input('what animal is the fastest?')
+answer2 = input('what animal is the fastest? ')
 guessing_controller(answer2, 'cheetah')
 
-answer3 = input('which animal is the BIGGEST?')
+answer3 = input('which animal is the BIGGEST? ')
 guessing_controller(answer3, 'blue whale')
 
 answer4 = input('which of these choices is a fish? \n \
